@@ -8,4 +8,4 @@ def selection_sort(nums):
 
 random_list_of_nums = [12, 8, 3, 20, 11]
 selection_sort(random_list_of_nums)
-print(random_list_of_nums) 
+print(random_list_of_nums)
