@@ -34,4 +34,15 @@ class RangeIterable:
         return RangeIterator(self.size)
 
 
+import time
 
+# главная программа с заголовком,
+# позволяющим использовать этот файл как модуль:
+if __name__ == '__main__':
+    # создание итерируемого объекта
+    main_iter = RangeIterable(32)
+    # проход по итерируемому объекту с помощью цикла
+    for line in main_iter:
+        # вывод текущего элемента (который возвращает итератор)
+        print(line)
+        time.sleep(0.25)
